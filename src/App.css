@@ -1,0 +1,110 @@
+.paddingall {
+    padding: 10px, 10px, 10px, 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pricetitle {
+    font-weight: 600;
+}
+
+.pricesubtitle {
+    font-size: 20px;
+    padding: 10px;
+}
+.spec {
+    margin-left: 30px;
+}
+.content {
+    text-align: center;
+    padding: 5px;
+}
+.gradient {
+    background: rgb(40, 34, 70);
+    background: linear-gradient(
+        158deg,
+        rgb(113, 103, 159) 0%,
+        rgba(30, 47, 141, 1)
+    );
+}
+.search {
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 60px;
+}
+.gradientlight {
+    background: rgb(66, 119, 73);
+    background: linear-gradient(
+        158deg,
+        rgba(40, 34, 70, 1) 0%,
+        rgb(53, 187, 73)
+    );
+}
+.iconstyle {
+    color: white;
+}
+.bgcolor {
+    min-height: 100vh;
+    background: #eceff1;
+    background: linear-gradient(
+        158deg,
+        rgba(244, 244, 244) 0%,
+        rrgb(2533, 237, 254) 100%
+    );
+}
+
+.image-upload-container {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.box-decoration {
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    padding: 130px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-upload-label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.image-upload-input {
+    display: none;
+}
+
+.image-upload-button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.image-upload-button:hover {
+    background-color: #3e8e41;
+}
+
+.img-display-before {
+    height: 200px;
+    width: 200px;
+    margin-left: 35px;
+}
+
+.img-display-after {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
